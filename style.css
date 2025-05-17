@@ -21,8 +21,8 @@ header{
 }
 .enterdate{
     background-color: white;
-    width: 16vh;
-    height: 4vh;
+    width: 25vh;
+    height: 5vh;
     text-align: center;
     border-radius: 1.5vh;
     margin: 0 auto;
@@ -63,4 +63,25 @@ footer{
     padding-left: 43%;
     padding-right: 2%;
     margin: auto -15px -15px -15px;
+}
+.footer{
+  font-size: 21px;
+}
+.date{
+  text-align:center;
+  font-size: 35px;
+}
+.sent{
+ 	background-color: white;
+    width: 16vh;
+    height: 4vh;
+    text-align: center;
+    border-radius: 1.5vh;
+    margin: 0 auto;
+ 	font-size: 20px;
+  	margin-top:10%
+}
+.info{ 
+  	text-align: center;
+	font-size: 20px;
 }
