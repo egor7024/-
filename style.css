@@ -85,3 +85,42 @@ footer{
   	text-align: center;
 	font-size: 20px;
 }
+.theme-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+  
+.theme-icon {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+    filter: invert(1); /* Делаем иконку белой */
+}
+  
+  /* Стили для темной темы */
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+  
+.dark-theme .cont1,
+.dark-theme .cont2 {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+}
+  
+.dark-theme header,
+.dark-theme footer {
+    background-color: #0d2b4e;
+}
+  
+.dark-theme .enterdate,
+.dark-theme .sent {
+    background-color: #3a3a3a;
+    color: white;
+}
+  
+.dark-theme .theme-icon {
+    content: url("https://cdn-icons-png.flaticon.com/512/979/979585.png");
+}
